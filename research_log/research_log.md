@@ -1,3 +1,11 @@
+## 2026-09-02
+Gromacs force field: Amber99sb (7)
+Adding Hydrogens for one protein(Q72IK0) test: 
+gmx pdb2gmx -f AF-Q72IK0-F1.pdb -o Q72IK0_H.pdb -water none -ignh
+
+Used Gromacs to hydrogenate and ProteinVolume to calculate packing density for 1226 proteins; took around 9 hours! Because I am trying to replicate Moran et al's results, I am using the tools they used. 
+
+
 ## 2026-08-29
 searched Uniprot rest API for cofactor annotations on all t. thermophilus proteins, seeing if each has a COFACTOR comment, then a cofactor name to see if it is divalent cation or covalent.
 Covalent: 132, Divalent: 141, Both: 18, Neither 969.
