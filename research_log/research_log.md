@@ -1,3 +1,9 @@
+## 2026-09-05
+Tried to use Metapredict to calculate fraction of disorder in each protein in Jupyterlab, but the kernel kept crashing. I switched to trying it in terminal instead, but that also kept crashing with a segmentation fault, so I decided to use Alphafold pLDDT instead for disorder, though it could be less accurate (?). Though pLDDT doesn't directly measure disorder, its confidence prediction is correlated with it.
+
+Instead of Metapredict fraction of > .5, it would be pLDDT < 50 to assess for high disorder. 
+Was the (# low pLDDT residues)/(total residues) per protein, giving most fraction values of very close to 0.
+
 ## 2026-09-02
 Gromacs force field: Amber99sb (7)
 Adding Hydrogens for one protein(Q72IK0) test: 
