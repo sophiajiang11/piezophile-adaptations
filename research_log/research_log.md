@@ -1,6 +1,6 @@
 ## 2026-09-13
 pI  
-Tests were run on my computed features vs Moran et al 2024's, with bins matching their Figure 5. For fraction fragile, data from Moran et al 2024's supplementary data DataS1 were used, a column indicating significant peptides if a protein's structure was disrupted under pressure.
+Tests were run on my computed features vs Moran et al 2024's, with bins matching their Figure 5. For fraction fragile, data from Moran et al 2024's supplementary data DataS1 were used, a column indicating significant peptides if a protein's structure was disrupted under pressure.  
 Chi-square p-value (100 MPa): <0.0001  
 Chi-square p-value (50 MPa):  <0.0001  
 U-shape visible, with both extremes of pI<5 or pI>10 having a fraction fragile of ~0.6 and the middle pI having a fraction fragile of ~0.2 to 0.4
