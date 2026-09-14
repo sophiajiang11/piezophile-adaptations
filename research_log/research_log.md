@@ -5,14 +5,14 @@ Chi-square p-value (100 MPa): <0.0001
 Chi-square p-value (50 MPa):  <0.0001  
 U-shape visible, with both extremes of pI<5 or pI>10 having a fraction fragile of ~0.6 and the middle pI having a fraction fragile of ~0.2 to 0.4
 
-Packing density 
+Packing density  
 Proteins sorted from least to greatest packing density, and found that those with highest packing density and fewest internal voids (Q4) were most fragile. The data should have an ascending order of fragility from Q1 to Q4, but Q1 had a 20 protein difference more than Q2, but it could be due to different reasons such as extreme pI or noise.  
 Chi-square p (100 MPa): 0.0014  
 Chi-square p (50 MPa):  0.1093  (not significant)
 spearman rho (100 MPa): 0.1488  
 Partially matched, and significant at 100MPa, but not completely clean across all quartiles.
 
-Cofactor chemistry
+Cofactor chemistry  
 Type of cofactor vs fraction fragile.  
 Chi-square p (100 MPa): 0.0048  
 Chi-square p (50 MPa):  0.4414 (not significant but similar pattern)  
