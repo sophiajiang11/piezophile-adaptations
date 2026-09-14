@@ -1,4 +1,5 @@
 ## 2026-09-05
+Added corresponding fraction disorder to each protein.
 Tried to use Metapredict to calculate fraction of disorder in each protein in Jupyterlab, but the kernel kept crashing. I switched to trying it in terminal instead, but that also kept crashing with a segmentation fault, so I decided to use Alphafold pLDDT instead for disorder, though it could be less accurate (?). Though pLDDT doesn't directly measure disorder, its confidence prediction is correlated with it.
 
 Instead of Metapredict fraction of > .5, it would be pLDDT < 50 to assess for high disorder. 
