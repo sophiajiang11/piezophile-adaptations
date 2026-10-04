@@ -1,3 +1,15 @@
+## 2026-10-03
+Reciprocal best hits: 
+First ran BLAST 2.16.0+ on T. kodakarensis (non-piezophilic) and T. barophilus (piezophilic) to find matching ortholog pairs. 
+Had to run a second time because I ran 1 match (max_target_seqs 1) instead of 5 (max_target_seqs 5) per protein in each direction. BLAST gave a warning that there should be a minimum of 5 hits or more, and out of the 5, the best match was picked by highest bit score. this time, results are: 
+1st time matches: 1539 pairs 
+2nd time matches before filter: 1539 pairs 
+After 80% alignment coverage: 1440 pairs 
+With structures on both sides: 1435 pairs (5 without structures) 
+e-value: 1 e-10
+
+I included a 80% alignment coverage filter so that the matching parts would be at least 80% of each protein's length. With a 90% coverage, there are 1341 pairs with structures.
+
 ## 2026-09-13
 pI  
 Tests were run on my computed features vs Moran et al 2024's, with bins matching their Figure 5. For fraction fragile, data from Moran et al 2024's supplementary data DataS1 were used, a column indicating significant peptides if a protein's structure was disrupted under pressure.  
