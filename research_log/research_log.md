@@ -1,3 +1,13 @@
+## 2026-10-12
+Fit U-curve to t thermophilus data to find c, the pI with the lowest chance of being fragile. 
+and delta, as a threshold for significance. 
+
+c = 7.87, range 7.65 to 8.16 
+b2 = 0.157 
+p = 4.8 e-11 
+delta = 0.119 (5% of gap between extreme and middle bins, or 1.6 percentage points, converted to pI units at median distance from c, 1.83)
+
+
 ## 2026-10-03
 Reciprocal best hits: 
 First ran BLAST 2.16.0+ on T. kodakarensis (non-piezophilic) and T. barophilus (piezophilic) to find matching ortholog pairs. 
